@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="savings.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+
+    </head>
+    <title>
+        SAVING
+    </title>
+    <body style="max-width: 1200px;padding: 12px;">
+        <div style="width: 1500px;background-color:rgb(253, 167, 181);border: 5px solid black;border-radius: 12px;padding: 5px;">
+            
+       
+        <div class="topcont">
+            <img src="images/money.jpg" width="50px" height="50px" style="border-radius: 50%;">
+            <h1 style="margin-top: 2.5%;" class="wdxl-lubrifont-tc-regular">NET-VAULT</h1>
+
+        </div>
+        <div class="dat">
+            <p id="date"></p>
+        </div>
+        <script>
+            const d=new Date();
+            document.getElementById("date").innerHTML=d;
+        </script>
+        <div class="maincont"> 
+            <form id="form1">
+                <div style="display: grid ;gap: 10px;">
+                <div style="margin-top: 2%;">
+                <label name="I/E"> INCOME/EXPENCE : </label>
+                <select id="sel" required style="margin-left: 3%;">
+                    <option value="choose">Choose</option>
+                    <option value="income">income</option>
+                    <option value="expense">expense</option>
+                </select></div>
+                <div>
+
+                <label name="amt"> AMOUNT :</label>
+                <input type="number" id="amot" placeholder="Enter amount ......" style="margin-left: 17%;">
+                </div>
+                <div>
+                <label name="date">DATE :</label>
+                <input type="date" id="date1" required style="margin-left: 23%;">
+                </div><div>
+                <button id="but1" style="margin-left: 18%;margin-top: 5%;height: 59px;width: 200px;" >ADD TRANSACTION</button>
+                </div>
+                </div>
+
+            </form>
+            
+        </div>
+        <div style="display: flex;flex-direction: row;"> 
+        <div>
+                <h1 class="h1">HISTORY :</h1>
+                
+                <button class="qwt" onclick="but1()">CHECK YOUR BALANCE</button>
+
+                <h1 id="balc"></h1>
+                <table id="his" border='2'style="width:100%; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Amount</th>
+      <th>Date</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody id="his-body">
+    
+  </tbody>
+</table>
+
+            
+            </div>
+            <div>
+
+                <select id="sel2" onchange="fil()" style="border: 2px solid black;width: 200px;height: 40px;border-radius: 12px;margin-top: 10%;margin-left: 5px;">
+                    <option>ALL</option>
+                    
+                    <option>INCOME</option>
+                    <option>EXPENSE</option>
+                </select>
+            </div>
+            <div>
+                <button id="but2" style="border: 2px solid black;width: 190px;height: 40px;border-radius: 12px;margin-top: 45%;margin-left:-106%;">CLEAR</button>
+            </div>
+            
+            <div style="margin-left: 50%;">
+
+            
+            <img src="images/balance.jpg" width="600px" height="600px" style="margin-left: -99%;margin-top: -40%;border-radius: 37%;"></div></div>
+            <script src="savings.js"></script>
+        </div>    
+    </body>
+</html>

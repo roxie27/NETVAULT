@@ -1,0 +1,119 @@
+.topcont{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    background-color: pink;
+    width: fit-content;
+    height:50px ;
+    padding: 10px;
+    border-radius: 12px;
+}
+.wdxl-lubrifont-tc-regular {
+  font-family: "WDXL Lubrifont TC", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.dat{
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+    background-color: pink;
+    width: fit-content;
+    height:50px ;
+    padding: 6px;
+    border-radius: 12px;
+    margin-top: -69px;
+    margin-left: 80%;
+    
+
+
+}
+.maincont{
+    background-color: pink;
+    margin-top: 2%;
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+}
+#sel{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(173, 165, 165);
+    background-color: rgb(223, 210, 210);
+}
+#sel:hover{
+    background-color: white;
+}
+
+#form1{
+    margin-left: 2%;
+    
+}
+#amot{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(173, 165, 165);
+    background-color: rgb(223, 210, 210);
+
+}
+#amot:hover{
+    background-color: white;
+}
+#date1:hover{
+    background-color: white;
+}
+#date1{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(173, 165, 165);
+    background-color: rgb(223, 210, 210);
+
+}
+#date12{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(173, 165, 165);
+    background-color: rgb(223, 210, 210);
+
+}
+#date12:hover{
+    background-color: white;
+}
+#but1{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(173, 165, 165);
+    background-color: rgb(223, 210, 210);
+
+}
+#but1:hover{
+    background-color: white;
+}
+.qwt{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(173, 165, 165);
+    background-color: rgb(223, 210, 210);
+
+}
+.h1{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(173, 165, 165);
+    background-color: rgb(223, 210, 210);
+    text-align: center;
+
+}
+#but2:hover{
+    background-color: white;
+}
+#but3:hover{
+    background-color: white;
+}
