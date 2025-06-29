@@ -39,11 +39,11 @@
     width: 200px;
     height: 40px;
     border-radius: 10px;
-    border: 2px solid rgb(173, 165, 165);
-    background-color: rgb(223, 210, 210);
+    border: 2px solid rgb(238, 184, 184);
+    background-color: rgb(255, 185, 185);
 }
 #sel:hover{
-    background-color: white;
+    background-color: rgb(255, 169, 169);
 }
 
 #form1{
@@ -54,60 +54,60 @@
     width: 200px;
     height: 40px;
     border-radius: 10px;
-    border: 2px solid rgb(173, 165, 165);
-    background-color: rgb(223, 210, 210);
+    border: 2px solid rgb(248, 185, 185);
+    background-color: rgb(254, 183, 183);
 
 }
 #amot:hover{
-    background-color: white;
+    background-color: rgb(255, 212, 212);
 }
 #date1:hover{
-    background-color: white;
+    background-color: rgb(245, 204, 204);
 }
 #date1{
     width: 200px;
     height: 40px;
     border-radius: 10px;
-    border: 2px solid rgb(173, 165, 165);
-    background-color: rgb(223, 210, 210);
+    border: 2px solid rgb(255, 184, 184);
+    background-color: rgb(255, 183, 183);
 
 }
 #date12{
     width: 200px;
     height: 40px;
     border-radius: 10px;
-    border: 2px solid rgb(173, 165, 165);
+    border: 2px solid rgb(255, 178, 178);
     background-color: rgb(223, 210, 210);
 
 }
 #date12:hover{
-    background-color: white;
+    background-color: rgb(243, 206, 206);
 }
 #but1{
     width: 200px;
     height: 40px;
     border-radius: 10px;
-    border: 2px solid rgb(173, 165, 165);
-    background-color: rgb(223, 210, 210);
+    border: 2px solid rgb(235, 171, 171);
+    background-color: rgb(255, 167, 167);
 
 }
 #but1:hover{
-    background-color: white;
+    background-color: rgb(253, 213, 219);
 }
 .qwt{
     width: 200px;
     height: 40px;
     border-radius: 10px;
-    border: 2px solid rgb(173, 165, 165);
-    background-color: rgb(223, 210, 210);
+    border: 2px solid rgb(233, 176, 176);
+    background-color: rgb(245, 213, 213);
 
 }
 .h1{
     width: 200px;
     height: 40px;
     border-radius: 10px;
-    border: 2px solid rgb(173, 165, 165);
-    background-color: rgb(223, 210, 210);
+    border: 2px solid rgb(234, 174, 174);
+    background-color: rgb(248, 188, 188);
     text-align: center;
 
 }
@@ -116,4 +116,12 @@
 }
 #but3:hover{
     background-color: white;
+}
+.fixed-container {
+    width: 1450px;
+    
+    background-color: rgb(253, 167, 181);
+    border: 5px solid black;
+    border-radius: 12px;
+    
 }
